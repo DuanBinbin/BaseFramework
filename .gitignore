@@ -32,3 +32,9 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+/BaseFramework/Library/*.log
+/BaseFramework/Library/ScriptAssemblies/BuiltinAssemblies.stamp
+/BaseFramework/Library/metadata
+/BaseFramework/Library/assetDatabase3
+/BaseFramework/Library/CurrentLayout.dwlt
+/BaseFramework/Library/InspectorExpandedItems.asset
