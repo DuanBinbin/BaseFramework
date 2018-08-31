@@ -71,7 +71,7 @@ public static class UnityTransformExtension
 
     public static T FindChild<T>(this Transform target, string name) where T : Component
     {
-        Transform tfSon = target.FindChild(name);
+        Transform tfSon = target.Find(name);
         if (tfSon)
             return tfSon.GetComponent<T>();
         else
